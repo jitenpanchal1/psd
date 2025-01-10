@@ -41,6 +41,10 @@
     width: 33%;
 }
 
+.col-35 {
+    width: 35%;
+}
+
 .col-40 {
     width: 40%;
 }
@@ -163,14 +167,13 @@ header a {
 }
 
 .sec-hero-button {
-    font-size: 20px;
-    /* line-height: 37px; */
+    font-size: 28px;
     color: #3e5831;
     font-weight: 500;
     font-family: "Poppins";
     padding: 10px 70px;
     border: none;
-    border-radius: 20px;
+    border-radius: 33px;
     background-color: #e6ca48;
 }
 
@@ -178,6 +181,65 @@ header a {
     position: absolute;
     right: -850px;
     top: -500px;
+}
+
+.sec-one {
+    background-color: #619e45;
+    padding: 100px 0;
+    background-image: linear-gradient(318deg, rgba(124, 178, 88, 0.5) 0%, rgba(36, 39, 35, 0.5) 100%);
+
+}
+
+.sec-one-container {
+    width: 1400px;
+    background-color: #e6ca48;
+    margin-left: auto;
+    border-top-left-radius: 650px;
+    border-bottom-left-radius: 650px;
+}
+
+.sec-one h2 {
+    font-size: 60px;
+    line-height: 69px;
+    color: #537543;
+    font-weight: 700;
+    font-family: "Berkshire Swash";
+}
+
+.sec-one h3 {
+    font-size: 29px;
+    color: #537543;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Poppins";
+    margin: 25px 0;
+}
+
+.sec-one p {
+    font-size: 25px;
+    color: #5a7d48;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+
+.sec-one img {
+    filter: drop-shadow(-4px 0px 4px rgba(0, 0, 0, 0.5));
+
+}
+
+.sec-one button {
+    font-size: 28px;
+    font-weight: 500;
+    color: #3e5831;
+    font-family: "Poppins";
+    padding: 10px 80px;
+    border: none;
+    border-radius: 33px;
+}
+
+.sec-one-text {
+    margin-right: 100px;
 }
 
 .sec-two {
@@ -266,8 +328,8 @@ header a {
     z-index: 1;
 }
 
-.sec-three-ed{
-     margin: 0px 70px;
+.sec-three-ed {
+    margin: 0px 70px;
 }
 
 .sec-three img {
@@ -298,6 +360,7 @@ header a {
     background-color: #dd982c;
     position: relative;
     overflow: hidden;
+    background-image: linear-gradient(315deg, rgba(255, 255, 255, 0.1) 100%, rgba(255, 255, 255, 0.1) 100%);
 }
 
 .sec-four-extra {
@@ -326,9 +389,10 @@ header a {
 
 .sec-four button {
     font-size: 28px;
+    font-weight: 500;
     color: #3e5831;
     font-family: "Poppins";
-    padding: 5px 40px;
+    padding: 10px 70px;
     border: none;
     border-radius: 33px;
 }
@@ -431,7 +495,7 @@ header a {
     margin: 0 80px;
 }
 
-.sec-six-two{
+.sec-six-two {
     background-color: #487034;
     padding: 60px 0;
     background-image: linear-gradient(229deg, rgb(115, 156, 88) 0%, rgba(89, 100, 86, 0.3) 100%);
