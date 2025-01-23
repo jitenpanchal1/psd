@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.col-50 {
+    width: 45%;
+}
+
+.rlt{
+    position: relative;
+    overflow: hidden;
+}
+
+.abs{
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ali {
+    align-items: center;
+}
+
+.jcs {
+    justify-content: center;
+}
+
+.jcs-2 {
+    justify-content: space-between;
+}
+
+main {
+    background-color: #1a0f00;
+}
+
+.logo-div {
+    width: 150px;
+}
+
+.img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Poppins";
+}
+
+.comn-mar {
+    margin: 0 110px 0 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 160px;
+    background-color: #f29c29;
+    padding: 5px 0;
+}
+
+.logo-search {
+    background-color: white;
+    padding: 0 7px;
+}
+
+.fa-cart-shopping {
+    background-color: #f29c29;
+    font-size: 20px;
+    padding: 5px;
+}
+
+main h1 {
+    font-size: 70px;
+    color: #fceedc;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-left: 7px;
+}
+
+b {
+    color: #f29c29;
+}
+
+section{
+    padding: 100px 0;
+}
+
+main p {
+    font-size: 15px;
+    color: #fceedc;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin: 10px 0 30px 5px;
+}
+
+.botton-one {
+    font-size: 20px;
+    color: #1a0f00;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 4px 20px;
+    background-color: #f29c29;
+    margin: 0 70px 0 7px;
+    border: none;
+}
+
+.botton-two {
+    font-size: 20px;
+    color: #f29c29;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 0px 20px;
+    background-color:#1a0f00;
+    border: 5px solid #f29c29;
+}
+
+.same-img-width{
+    width: 500px;
+}
+
+.div-same-img{
+    width: 200px;
+}
+
+.abs-one{
+    top: 30px;
+    left: -10px;
+    width: 50px;
+}
+
+.abs-two{
+    top: 80px;
+    left: 700px;
+    width: 40px;
+}
+
+.abs-three{
+    top: 150px;
+    right: 20px;
+    width: 25px;
+}
+
+.abs-four{
+    bottom: 20px;
+    left: 30px;
+    width: 100px;
+}
+
+.abs-five  {
+    bottom: 10px;
+    left: 650px;
+    width: 50px;
+}
+
+.abs-six{
+    bottom: 50px;
+    right: 200px;
+    width: 150px;
+}
+
+.abs-seven{
+    bottom: 50px;
+    right: -50px;
+    width: 200px;
+}
